@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/investment-calculator-logo.png';
+import logo from '../../assets/sack_image_1.jpg';
 import './InvestmentHeader.css';
 
 const InvestmentHeader = () => {

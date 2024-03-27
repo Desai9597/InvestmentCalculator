@@ -14,6 +14,10 @@ function App() {
   const yearlyData = []; // per-year results
 
   if (userInput) {
+    if(userInput['expected-return'].length === 0)
+    {
+      return <p>Invalid input</p>
+    }
     let currentSavings = +userInput['current-savings']; 
     const yearlyContribution = +userInput['yearly-contribution']; 
     const expectedReturn = +userInput['expected-return'] / 100;
